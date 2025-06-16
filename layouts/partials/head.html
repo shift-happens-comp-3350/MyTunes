@@ -7,7 +7,7 @@
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
-	
+
 	<!-- CSS -->
 	{{ if hugo.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
@@ -26,7 +26,7 @@
 
 	<!-- FontAwesome CSS -->
 	{{ range .Site.Params.asset.fontawesome_css -}}
-		<link rel="stylesheet" href="{{ "css/fontawesome-all.min.css" | relURL }}">
+		<link rel="stylesheet" href="{{ . | absURL }}">
 	{{- end }}
 
 </head>
