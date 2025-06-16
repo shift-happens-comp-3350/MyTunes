@@ -1,0 +1,61 @@
+<!-- Banner -->
+<section class="banner {{ .style }}">
+    <div class="content">
+        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .button }}
+        <ul class="actions stacked">
+            <li><a href="#" id="open-video-modal" class="button primary large wide">{{ .label }}</a></li>
+        </ul>
+        {{ end }}
+    </div>
+    {{ with .image }}
+    <div class="image">
+        <img src="{{.}}" alt="Hugo Story"/>
+    </div>
+    {{ end }}
+</section>
+
+<!-- Modal -->
+<div id="video-modal"
+     style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.8); z-index: 10000; justify-content: center; align-items: center;">
+    <div style="position: relative; width: 95%; max-width: 1200px; background: #000;">
+        <button id="close-video-modal"
+                style="position: absolute; top: 10px; right: 15px; font-size: 2rem; color: #fff; background: none; border: none; cursor: pointer;">
+            &times;
+        </button>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe id="video-frame" src="https://www.youtube.com/embed/aJdvMlojfkU?enablejsapi=1"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    const openBtn = document.getElementById("open-video-modal");
+    const modal = document.getElementById("video-modal");
+    const closeBtn = document.getElementById("close-video-modal");
+    const iframe = document.getElementById("video-frame");
+
+    openBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        modal.style.display = "flex";
+    });
+
+    closeBtn.addEventListener("click", function () {
+        modal.style.display = "none";
+        iframe.src = iframe.src; // Reset video
+    });
+
+    window.addEventListener("click", function (e) {
+        if (e.target === modal) {
+            modal.style.display = "none";
+            iframe.src = iframe.src;
+        }
+    });
+</script>

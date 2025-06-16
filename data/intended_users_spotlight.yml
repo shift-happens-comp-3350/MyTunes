@@ -1,0 +1,9 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title: "Intended Users"
+content: |
+  The <strong>MyTunes</strong> application is designed for individuals who want a streamlined, offline-focused music management experience. This includes:
+button:
+  label: "Read More"
+  link: "#intended-users-full"
+image: "images/intended_users.jpg"

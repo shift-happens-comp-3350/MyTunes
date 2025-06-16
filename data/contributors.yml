@@ -1,0 +1,29 @@
+title: "Contributors"
+content: |
+  of Team 10 - ShiftHappens
+style: "style1 medium onscroll-fade-in"
+items:
+  # feature item loop
+  - name: "Mark Jimenez"
+    content: "Learned how to configure sqlite as a database for Java. Experimented with GUI testing for system tests. Understood Gradle build system on a deeper level."
+    style: "solid style2 major fa-database"
+
+  # feature item loop
+  - name: "Gerald Pagcaliwagen"
+    content: "Designing application architecture and package structuring. AGILE workflow of fixing technical debt. Iteration planning and project management."
+    style: "solid style2 major fa-sitemap"
+
+  # feature item loop
+  - name: "Shrey Mehta"
+    content: "Learned how to design user interfaces with JavaFX and connect them to a SQLite backend. Gained experience with iterative development and maintaining clear, organized documentation."
+    style: "solid style2 major fa-desktop"
+
+  # feature item loop
+  - name: "Jason Bilinsky"
+    content: "Learned a basic understanding of the JavaFX framework and how to build responsive applications with it. A better understanding of tech debt and when it was ok to introduce tech debt if it meant having a functioning iteration."
+    style: "solid style2 major fa-layer-group"
+
+  # feature item loop
+  - name: "Bhavik Jain"
+    content: "Learned how to use Git for collaborative development and version control. Gained experience building user interfaces with JavaFX. Explored Go and Hugo to understand scripting and static site generation workflows."
+    style: "solid style2 major fa-code"

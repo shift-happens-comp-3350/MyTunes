@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "spotlight" site.Data.vision_spotlight }}
+	{{ partial "spotlight" site.Data.intended_users_spotlight }}
+	{{ partial "spotlight" site.Data.major_functionality_spotlight }}
+	{{ partial "spotlight" site.Data.postmortem_spotlight }}
+	<!-- {{ partial "gallery" site.Data.gallery }} -->
+	{{ partial "items" site.Data.contributors }}
+	{{ partial "vision_statement"}}
+	{{ partial "intended_users"}}
+	{{ partial "major_functionality"}}
+	{{ partial "postmortem"}}
+	<!-- {{ partial "elements" . }}
+	{{ partial "elements_reference" . }}
+	{{ partial "footer" . }} -->
+
+{{ end }}

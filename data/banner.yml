@@ -1,0 +1,11 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title: "MyTunes"
+subtitle: |
+  MyTunes is a simple desktop app that helps people listen to, organize, and enjoy their favorite music, completely without needing the internet.
+content: |
+button:
+  label: "Watch Promo and Feature Video"
+  link: "#video-modal"
+image: "../images/Iteration2Logo.png"
+

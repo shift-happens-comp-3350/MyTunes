@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title: "Major Functionality"
+content: |
+  <strong>MyTunes</strong> provides a clean, modular platform for managing a personal music library with key features designed to enhance usability and organization:
+button:
+  label: "Read More"
+  link: "#major-functionality-full"
+image: "images/major_functionality.png"
