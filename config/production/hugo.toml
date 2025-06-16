@@ -47,3 +47,7 @@ disableKinds = ["taxonomy", "section"]
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
   fontawesome_js = ["js/fontawesome-all.min.js"]
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'

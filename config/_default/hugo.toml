@@ -36,3 +36,8 @@ disableKinds = ["taxonomy", "section"]
 [Params.social]
 
 [Params.asset]
+
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
