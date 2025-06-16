@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d96bc9d-5b78-4de3-9239-f985475f5f5a" name="Changes" comment="a">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hugo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.github/workflows/hugo.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/Website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/website/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetypes/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/website/archetypes/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/config/_default/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/development/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/config/development/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/production/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/config/production/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/banner.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/banner.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/contributors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/contributors.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gallery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/gallery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intended_users_spotlight.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/intended_users_spotlight.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/major_functionality_spotlight.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/major_functionality_spotlight.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/postmortem_spotlight.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/postmortem_spotlight.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spotlight1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/spotlight1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spotlight2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/spotlight2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spotlight3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/spotlight3.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/vision_spotlight.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/vision_spotlight.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/vision_statement.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/data/vision_statement.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/elements_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/elements_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/favicon.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/favicon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/intended_users.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/intended_users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/major_functionality.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/major_functionality.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/modifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/modifiers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/postmortem.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/postmortem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/spotlight-01-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/spotlight-01-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/spotlight-02-right.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/spotlight-02-right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/spotlight-03-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/spotlight-03-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/spotlight.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/spotlight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/vision_statement.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/layouts/partials/vision_statement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/main.scss_b0952a14005f9bfa46f988ad6db02878.content" beforeDir="false" afterPath="$PROJECT_DIR$/website/resources/_gen/assets/sass/main.scss_b0952a14005f9bfa46f988ad6db02878.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/main.scss_b0952a14005f9bfa46f988ad6db02878.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/resources/_gen/assets/sass/main.scss_b0952a14005f9bfa46f988ad6db02878.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/noscript.scss_46c506d95517ee69e971cab58d774083.content" beforeDir="false" afterPath="$PROJECT_DIR$/website/resources/_gen/assets/sass/noscript.scss_46c506d95517ee69e971cab58d774083.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/noscript.scss_46c506d95517ee69e971cab58d774083.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/resources/_gen/assets/sass/noscript.scss_46c506d95517ee69e971cab58d774083.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/fontawesome-all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Iteration2Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/Iteration2Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/fulls/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/fulls/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gallery/thumbs/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/gallery/thumbs/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/intended_users.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/intended_users.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/major_functionality.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/major_functionality.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/postmortem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/postmortem.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/spotlight01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/spotlight01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/spotlight02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/spotlight02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/spotlight03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/spotlight03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/vision_statement.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/images/vision_statement.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/fontawesome-all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/js/fontawesome-all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-duotone-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-duotone-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-duotone-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-duotone-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-light-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-light-300.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-light-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-sharp-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-sharp-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-sharp-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-sharp-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-thin-100.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-thin-100.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-thin-100.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-thin-100.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-v4compatibility.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/webfonts/fa-v4compatibility.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/breakpoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/breakpoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/browser.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/browser.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/jquery.scrollex.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/jquery.scrollex.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/jquery.scrolly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/base/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/base/_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/base/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_actions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_actions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_items.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_spotlight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_spotlight.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/components/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/components/_wrapper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/layout/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/libs/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/libs/_html-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/libs/_vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/assets/sass/noscript.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/assets/sass/noscript.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/archetypes/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/archetypes/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/config/_default/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/config/_default/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/config/development/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/config/development/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/config/production/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/config/production/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/data/banner.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/data/banner.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/data/gallery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/data/gallery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/data/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/data/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/data/spotlight1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/data/spotlight1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/data/spotlight2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/data/spotlight2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/data/spotlight3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/data/spotlight3.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/elements_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/elements_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/favicon.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/favicon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/modifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/modifiers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/spotlight-01-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/spotlight-01-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/spotlight-02-right.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/spotlight-02-right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/spotlight-03-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/spotlight-03-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/layouts/partials/spotlight.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/layouts/partials/spotlight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/css/fontawesome-all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/fulls/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/fulls/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/gallery/thumbs/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/gallery/thumbs/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/pic01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/pic02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/spotlight01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/spotlight01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/spotlight02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/spotlight02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/images/spotlight03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/images/spotlight03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/js/fontawesome-all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/js/fontawesome-all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-duotone-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-duotone-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-duotone-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-duotone-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-light-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-light-300.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-light-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-sharp-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-sharp-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-sharp-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-sharp-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-thin-100.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-thin-100.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-thin-100.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-thin-100.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-v4compatibility.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/exampleSite/static/webfonts/fa-v4compatibility.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/exampleSite/static/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/images/device-screenshots.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/images/device-screenshots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/images/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/images/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/images/tn.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/images/tn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/elements_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/elements_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/favicon.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/favicon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/modifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/modifiers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/spotlight-01-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/spotlight-01-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/spotlight-02-right.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/spotlight-02-right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/spotlight-03-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/spotlight-03-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/layouts/partials/spotlight.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/layouts/partials/spotlight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/css/fontawesome-all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/fulls/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/fulls/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/gallery/thumbs/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/gallery/thumbs/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/pic01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/pic02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/spotlight01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/spotlight01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/spotlight02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/spotlight02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/images/spotlight03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/images/spotlight03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/js/fontawesome-all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/js/fontawesome-all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-duotone-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-duotone-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-duotone-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-duotone-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-light-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-light-300.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-light-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-sharp-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-sharp-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-sharp-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-sharp-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-thin-100.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-thin-100.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-thin-100.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-thin-100.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-v4compatibility.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/static/webfonts/fa-v4compatibility.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/static/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-story/theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/website/themes/hugo-story/theme.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shikazx"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shift-happens-comp-3350/MyTunes.git",
+    "accountId": "a281781b-2a33-4feb-b52a-64ef724914b6"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2ya7P6gWarIwgEbHLdgkSIc8wiz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\todi1\Desktop\XDX\website" />
+      <recent name="C:\Users\todi1\Desktop\XDX" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d96bc9d-5b78-4de3-9239-f985475f5f5a" name="Changes" comment="" />
+      <created>1750060802196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750060802196</updated>
+    </task>
+    <task id="LOCAL-00001" summary="a">
+      <option name="closed" value="true" />
+      <created>1750060856512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750060856512</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a">
+      <option name="closed" value="true" />
+      <created>1750060861255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750060861255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="a">
+      <option name="closed" value="true" />
+      <created>1750061221348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750061221348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="a">
+      <option name="closed" value="true" />
+      <created>1750061566750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750061566750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+</project>
