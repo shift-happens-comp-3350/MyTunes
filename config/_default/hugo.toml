@@ -12,7 +12,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://shift-happens-comp-3350.github.io/MyTunes/"
 publishDir = "public"
 
 # Remote
